@@ -5,9 +5,11 @@ import java.util.Scanner;
 public class JaimeSansanoGarciaAdivino {
 
     public static void main(String[] args) {
-        int n = 0,cont = 0;
-        int x = (int) (500 *Math.random());
-        //System.out.print(x);
+        int n = 0, cont = 0, x = 0;
+        while (x < 10){
+            x = (int) (50 *Math.random());
+        }
+        // System.out.print(x);
         Scanner sc = new Scanner(System.in);
         do {
             System.out.print("\nIntroduce el valor de X: ");
